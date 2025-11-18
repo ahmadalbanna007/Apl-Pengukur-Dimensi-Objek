@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: black;
+}
+
+.container {
+    margin-top: 10px;
+    color: red;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+

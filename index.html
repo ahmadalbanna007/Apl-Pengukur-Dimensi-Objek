@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikasi Ukur Objek Sederhana</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<h2>Aplikasi Pengukur Objek dari Foto</h2>
+
+<input type="file" id="upload" accept="image/*">
+
+<div class="container">
+    <canvas id="canvas"></canvas>
+</div>
+
+<p>
+    Ukuran asli referensi (misal kartu ATM: <b>85.6 mm</b>)
+    <br>
+    <input id="refSize" type="number" value="85.6"> mm
+</p>
+
+<button id="measureBtn">Hitung Ukuran</button>
+
+<h3>Hasil:</h3>
+<p id="result"></p>
+
+<script src="Script.js"></script>
+</body>
+</html>
