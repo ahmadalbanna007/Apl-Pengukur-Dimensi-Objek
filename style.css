@@ -200,6 +200,15 @@ h1 {
     overflow-x: auto;
 }
 
+.arttext:hover {
+    background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, purple);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+
+}
+
 @media (max-width: 900px) {
     .app-container {
         flex-direction: column;

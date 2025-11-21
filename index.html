@@ -14,6 +14,15 @@
         </header>
         
         <div class="app-container">
+            <div class="instructions">
+                    <h3>Cara Penggunaan:</h3>
+                    <ol>
+                        <li>Unggah gambar dengan mengklik tombol "Pilih Gambar"</li>
+                        <li>Klik pada dua titik objek yang ingin diukur</li>
+                        <li>Sistem akan menghitung jarak antara kedua titik</li>
+                    </ol>
+                </div>
+
             <div class="upload-section">
                 <h2>Unggah Foto</h2>
                 <input type="file" id="imageUpload" class="file-input" accept="image/*">
@@ -26,22 +35,12 @@
                 
                 <button id="resetBtn" class="btn btn-reset">Reset Pengukuran</button>
             </div>
-            
-            <div class="image-section">
+
+             <div class="image-section">
                 <h2>Area Pengukuran</h2>
                 <canvas id="imageCanvas">
                     Browser Anda tidak mendukung elemen canvas.
                 </canvas>
-                
-                <div class="instructions">
-                    <h3>Cara Penggunaan:</h3>
-                    <ol>
-                        <li>Unggah gambar dengan mengklik tombol "Pilih Gambar"</li>
-                        <li>Klik pada dua titik objek yang ingin diukur</li>
-                        <li>Sistem akan menghitung jarak antara kedua titik</li>
-                    </ol>
-                </div>
-            </div>
             
             <div class="result-section">
                 <h2>Hasil Pengukuran</h2>
